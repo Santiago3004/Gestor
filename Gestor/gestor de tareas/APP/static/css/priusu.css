@@ -1,0 +1,59 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #ff4444; /* Rojo */
+    color: black; /* Gris oscuro */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: black; /* Gris oscuro */
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el título "Tareas Registradas" */
+#usuregis {
+    color: black; /* Gris */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #dddddd; /* Gris claro */
+    text-align: left;
+}
+
+table th {
+    background-color: #ff4444; /* Rojo */
+    color: #ffffff; /* Blanco */
+}
+
+label {
+    font-family: cursive;
+    color: black;
+}
